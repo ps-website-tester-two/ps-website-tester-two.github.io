@@ -5,16 +5,15 @@ order: 0
 permalink: /home/
 ---
 
-{% assign categoryA_posts = site.posts | where: "category", "general" %}
-{% assign categoryB_posts = site.posts | where: "category", "method" %}
-{% assign categoryC_posts = site.posts | where_exp: "post", "post.category contains 'section'" %}
-{% assign categoryD_posts = site.posts | where: "category", "modeling" %}
-{% assign categoryE_posts = site.posts | where: "category", "agile" %}
-{% assign categoryF_posts = site.posts | where: "category", "tools" %}
-{% assign categoryG_posts = site.posts | where: "category", "versions" %}
-{% assign categoryH_posts = site.posts | where: "category", "traceability" %}
-{% assign categoryJ_posts = site.posts | where: "category", "management" %}
-{% assign categoryK_posts = site.posts | where: "category", "customizing" %}
+{% assign categoryA_posts = site.posts | where: "categories", "A-general" %}
+{% assign categoryB_posts = site.posts | where: "categories", "B-method" %}
+{% assign categoryC_posts = site.posts | where: "categories", "C-artifacts" %}
+{% assign categoryD_posts = site.posts | where: "categories", "D-agile" %}
+{% assign categoryE_posts = site.posts | where: "categories", "E-tools" %}
+{% assign categoryF_posts = site.posts | where: "categories", "F-versions" %}
+{% assign categoryG_posts = site.posts | where: "categories", "G-traceability" %}
+{% assign categoryH_posts = site.posts | where: "categories", "H-management" %}
+{% assign categoryI_posts = site.posts | where: "categories", "I-customizing" %}
 
 
 On this site you find answers to (currently {{ site.posts | size }}) questions
@@ -38,7 +37,7 @@ regarding req42, organized in the following categories:
 |-----------------|----------------------------|
 | [Questions on **project and product management**](/category_h/) ({{ categoryH_posts | size }})  |  Very large products, standardization, governance, check list for documenation, delta documentation, access rights to documents, ...|
 |-----------------|----------------------------|
-| [Questions on **customizing**](/category_i/) ({{ categoryJ_posts | size }}) |  enterprise-wide and organization specific tailorings, typical adaptations|
+| [Questions on **customizing**](/category_i/) ({{ categoryI_posts | size }}) |  enterprise-wide and organization specific tailorings, typical adaptations|
 |-----------------|----------------------------|
 
 
