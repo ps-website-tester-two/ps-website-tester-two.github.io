@@ -4,18 +4,8 @@ title: Home
 order: 0
 permalink: /home/
 ---
-<div class="ua-background" markdown="1">
-
->### We stand with the people of Ukraine <span class="parent"><span class="ua-text"><i class="fa-solid fa-heart children"></i></span><span class="ua-size children"><i class="fa-solid fa-heart fa-beat heart children"></i></span></span>
->
->Please assist humanitarian efforts for the Ukrainian people and those affected by the military invasion of Ukraine by supporting international aid organizations, including the [International Committee of the Red Cross](https://www.icrc.org/en).
-
-</div>
-
 
 {% assign categoryA_posts = site.posts | where: "category", "general" %}
-{% assign zorg = categoryA_posts.size %}
-
 {% assign categoryB_posts = site.posts | where: "category", "method" %}
 {% assign categoryC_posts = site.posts | where_exp: "post", "post.category contains 'section'" %}
 {% assign categoryD_posts = site.posts | where: "category", "modeling" %}
@@ -28,44 +18,33 @@ permalink: /home/
 
 
 On this site you find answers to (currently {{ site.posts | size }}) questions
-regarding arc42, organized in the following categories:
+regarding req42, organized in the following categories:
 
 | Category         | Topics                   |
 |:-----------------|:----------------------------|
-| [**General questions**](/category_a/) ({{ zorg }}) | Cost, license, contributing |
+| [**General questions**](/category_a/) ({{ categoryA_posts | size }}) | Costs, license, contributions |
 |-----------------|----------------------------|
-| [Questions on **methodology**](/category_b/) ({{ categoryB_posts | size }})  | Minimal amount of documentation, where-does-what-info-belong, notations, UML|
+| [Questions on **methodology**](/category_b/) ({{ categoryB_posts | size }})  | Minimal amount of documentation, notations, UML, what belongs where?|
 |-----------------|----------------------------|
-| [Questions on **arc42 sections**](/category_c/) ({{ categoryC_posts | size }})  | How to treat the various arc42 sections, stakeholder, quality requirements, context, building blocks, runtime scenarios, deployment, concepts etc.|
+| [Questions on **req42 artifacts**](/category_c/) ({{ categoryC_posts | size }})  | Questions about the product backlog, about management artifacts|
 |-----------------|----------------------------|
-| [Questions on **modelling**](/category_d) ({{ categoryD_posts | size }}) | UML and alternative notations, consistency, clarity, understandability, diagrams, interfaces, ports,|
+| [Questions on **req42 and agile methods**](/category_d) ({{ categoryD_posts | size }}) | SCRUM, Kanban, SAFe and other scaling frameworks, definiton of ready, minimalism, sparseness|
 |-----------------|----------------------------|
-| [Questions on **arc42 and agility**](/category_e/) ({{ categoryE_posts | size }}) | Scrum, Kanban, definition-of-done, minimal, lean, economical documentation|
+| [Questions on **tools**](/category_e/) ({{ categoryE_posts | size }}) | 	Tools and their usage, ...|
 |-----------------|----------------------------|
-| [Questions on **tools**](/category_f) ({{ categoryF_posts | size }})  | Tools and their application, source code and documentation|
+| [Questions on **versions and variants**](/category_f) ({{ categoryF_posts | size }})  | Versions of documents, variants of systems and products|
 |-----------------|----------------------------|
-| [Questions on **versioning and variants**](/category_g) ({{ categoryG_posts | size }})  | Versioning documents, versions and variants of systems|
+| [Questions on **traceability**](/category_g) ({{ categoryG_posts | size }})  | Traceablity from requirements to solutions and vice versa|
 |-----------------|----------------------------|
-| [Questions on **traceability**](/category_h/) ({{ categoryH_posts | size }})  |  Tracing requirements to solution decisions and vice-versa|
+| [Questions on **project and product management**](/category_h/) ({{ categoryH_posts | size }})  |  Very large products, standardization, governance, check list for documenation, delta documentation, access rights to documents, ...|
 |-----------------|----------------------------|
-| [Questions on **managing (documentation)**](/category_j/) ({{ categoryJ_posts | size }}) |  Very large systems, standardization, governance, checklists, access-rights|
+| [Questions on **customizing**](/category_i/) ({{ categoryJ_posts | size }}) |  enterprise-wide and organization specific tailorings, typical adaptations|
 |-----------------|----------------------------|
-| [Questions on **customizing arc42**](/category_k) ({{ categoryK_posts | size }}) | Tailoring and customizing, known adaptions of arc42|
-|-----------------|----------------------------|
+
 
 
 
 #### If you have additional questions...
 
-Just in case **your** question(s) regarding arc42 and its usage in
+Just in case **your** question(s) regarding req42 and its usage in
 practical situations are still missing ... please let us [**know here**](/contact/).
-
-
-## <font color="#dd354b">We're offering architecture training!</font>
-
-The _dynamic duo_, always two trainers in parallel, practically applicable
-knowledge from Peter Hruschka and Gernot Starke. See [arc42.de](https://www.arc42.de/termine) for details, and schedule.
-
-We've successfully trained more than 1000 developers in software architecture,
-many of them passed the [iSAQB CPSA-F](https://isaqb.org) certification.
-(sorry - public training currently German-only, English for inhouse trainings.)
