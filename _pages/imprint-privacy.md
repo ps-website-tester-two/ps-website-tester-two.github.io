@@ -9,31 +9,27 @@ hide: true
 
 The following text has to be included in sites provided from Germany by German citicens, due to our sometimes strange, inconsistent and user-unfriendly data privacy laws.
 
-## Imprint
+## Impressum
 
 #### Anbieter
 
-Dr. Gernot Starke, Willi-Lauf Allee 43, D-50858 Köln
+Dr. Peter Hruschka  
+Langenbruchweg 71  
+52080 Aachen  
+Germany
 
-#### Kontakt
-
-e-Mail: gernotstarke - at - mailbox - dot - org<br>
-Website: [gernotstarke.de](https://www.gernotstarke.de)
+phone: +49 172 – 241 1656  
+email: hruschka@b-agile.de  
+UID: DE 170811464
 
 #### Verantwortlich nach § 6 Abs.2 MDStV
 
-Dr. Gernot Starke, mit Unterstützung von Dr. Peter Hruschka (Aachen).
-
-
+Dr. Peter Hruschka
 
 ## Privacy Statement (Datenschutzerklärung)
 
-
-#### Web Analytics
-This page uses privacy-friendly web analytics from [plausible.io](https://plausible.io), but sets NO COOKIES.
-
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Dr. Gernot Starke, Willi-Lauf Allee 43, D-50858 Köln, Deutschland, <a href="xmxaxixlxtxo:ixnxfxox@xaxrxcx4x2x.xdxe" onmouseover="this.href=this.href.replace(/x/g,'');">Email (gegen Spam gesichert)</a>, Tel.: +49 177 7282570 auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Dr. Peter Hruschka auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
@@ -50,7 +46,6 @@ Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder 
 
 #### Kommentare und Beiträge
 Wenn Nutzer Kommentare im Blog oder sonstige Beiträge hinterlassen, werden ihre IP-Adressen gespeichert. Das erfolgt zur Sicherheit des Anbieters, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte schreibt (Beleidigungen, verbotene politische Propaganda, etc.). In diesem Fall kann der Anbieter selbst für den Kommentar oder Beitrag belangt werden und ist daher an der Identität des Verfassers interessiert.
-
 
 #### Tracker, Analytics
 Dieses Angebot benutzt KEINE Tracker- oder Analysesysteme wie beispielsweise Google Analytics, speichert daher auch keine Cookies mit persönlichen Daten.
