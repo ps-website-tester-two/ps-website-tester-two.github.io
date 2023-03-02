@@ -3,7 +3,7 @@
 # helper, so you don't need to remember docker-compose syntax...
 
 # what's the site?
-site="faq.arc42.org"
+site="faq.req42.de"
 
 # some colors to highlight certain output
 GREEN=`tput setaf 2`

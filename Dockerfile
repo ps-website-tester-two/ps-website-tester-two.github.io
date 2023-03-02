@@ -1,8 +1,8 @@
 FROM jekyll/builder
 
 LABEL version="0.8.6"
-LABEL description="develop and generate faq.arc42.org site"
-LABEL vendor="arc42 (Gernot Starke)"
+LABEL description="develop and generate faq.req42.de site"
+LABEL vendor="req42 (Peter Hruschka)"
 
 COPY Gemfile .
 

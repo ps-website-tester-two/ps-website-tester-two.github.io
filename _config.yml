@@ -7,14 +7,10 @@
 
 # "real" deployment with github-pages but custom domain
 # -----------------------------------------------------
-url: https://faq.arc42.org
-imageurl: https://faq.arc42.org
+url: https://faq.req42.de
+imageurl: https://faq.req42.de
 baseurl:
 #######################################################
-
-## imageurl set to url + baseurl, easier than the complex
-## {{ url }}{{ url }}{{ '<filename>' | prepend: site.baseurl }}
-#imageurl: http://arc42.github.io/faq
 
 
 
@@ -22,21 +18,16 @@ baseurl:
 #
 # basic settings
 #
-title: arc42 FAQ
-description: frequently asked questions on arc42.
-avatar: /assets/img/arc42logosquare.png
-favicon: /assets/img/arc42logosquare.png
+title: req42 FAQ
+description: frequently asked questions on req42.
+avatar: /assets/img/avatar.jpg
+favicon: /assets/img/avatar.jpg
 language: en
 
 #
 # want disqus comments?
 #
 disqus: false
-
-#
-# want subtle ads (on post-pages)
-#
-show-subtle-ads: true
 
 
 # Analytics
@@ -48,10 +39,10 @@ analytics: false
 icons:
   rss: false
   email: false
-  github: arc42
-  twitter: gernotstarke
+  github: false
+  twitter: false
   google_plus: 
-  stack_overflow: arc42
+  stack_overflow: false
 
 #
 # Prettify url.
