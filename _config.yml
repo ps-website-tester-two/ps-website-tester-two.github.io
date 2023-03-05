@@ -7,8 +7,8 @@
 
 # "real" deployment with github-pages but custom domain
 # -----------------------------------------------------
-url: https://faq.req42.de
-imageurl: https://faq.req42.de
+url: 
+imageurl:
 baseurl:
 #######################################################
 
